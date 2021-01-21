@@ -94,8 +94,8 @@ set tabstop=4
 set autoindent
 if has("autocmd")
   filetype on
-  autocmd FileType c setlocal cindent
-  autocmd FileType c setlocal ts=2 sts=2 sw=2 et
+  autocmd FileType c,cpp,java setlocal cindent
+  autocmd FileType c,cpp,java setlocal expandtab tabstop=2 softtabstop=2 shiftwidth=2 shiftround
 endif
 
 "----------command line----------
