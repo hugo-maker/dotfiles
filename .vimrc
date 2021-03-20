@@ -59,6 +59,7 @@ augroup END
 "----------set----------
 set number
 set title
+set clipboard=unnamedplus
 
 " エラービープ音の全停止"
 set visualbell t_vb=
