@@ -99,6 +99,10 @@ if has("autocmd")
   autocmd FileType c,cpp,java setlocal expandtab tabstop=2 softtabstop=2 shiftwidth=2 shiftround
 endif
 
+" 行末を'$', タブを'>...', 末尾のスペースを'_'で表示
+set listchars=eol:$,tab:>.,trail:_
+set list
+
 "----------command line----------
 
 " ステータスラインに候補を表示
